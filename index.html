@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="css\style.css" rel="stylesheet">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
@@ -76,7 +80,240 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+				
+			<header>
+				<div class="info-top">
+					<div class="container info-top__block">		
+				    	<div class="info-top__lang item-lang">
+				    		<span class="item-lang__ru selected">РУС</span>
+				    		<span class="item-lang__en">ENG</span>
+				    		<span class="item-lang__fr">FR</span>
+				    	</div>
+				    	<div class="info-top__tel">
+				    		<span>8 (800) 123-45-67</span>
+				    	</div>
+				    	<div class="info-top__email">
+				    		<span>sales@log.ru</span>
+				    	</div>
+				    </div>
+				</div>
+				<nav class="nav">
+					<div class="container nav-block">
+						<div class="nav-brand brand">
+							<a class="brand__logo" href="#">
+								<img src="img/logo.png" alt="Company TAGLINE">
+							</a>
+							<hr class="brand__hr">
+							<div class="brand__office">
+								<img src="img/placeholder.svg" alt="map">
+								<span>Наши офисы</span>
+							</div>
+						</div>
+						<ul class="nav-list" >
+							<li class="nav-item">
+								<a class="nav-link" href="#all-service">услуги</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">о компании</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">вакансии</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">контакты</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+
+			<div class="hero">
+				<div class="hero-content">
+					<div class="hero-content__block">
+						<h1 class="hero-content__title">Грузовые перевозки</h1>
+						<p class="hero-content__description">Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование,<br> страхование, упаковка и хранение грузов</p>
+					</div>
+					<div class="hero-content__mouse">
+						<a href="#service">
+							<img src="img/mouse.svg" alt="mouse">
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<section class="service" id="service">
+				<div class="container">
+					<div class="service-slider">
+						<div class="service-content content">
+							<div class="content-block">
+								<hr class="content-block__hr">
+								<h2 class="content-block__title">грузоперевозки<br> по европе</h2>
+								<p class="content-block__description">Страны Евросоюза, а также Украина,<br> Белоруссия со всеми документами.</p>
+								<div class="content-block__btn">
+									<a href="#" class="btn">Подробнее</a>
+								</div>
+							</div>
+							<div class="content-block__img">
+								<img src="img/truck.png" alt="truck">
+							</div>
+						</div>
+						<div class="service-slider__nav">
+							<div class="service-slider__nav-arrow">
+								<span>след</span>
+								<img src="img/right.svg" alt="arrow">
+							</div>
+							<div class="service-slider__nav-arrow">
+								<img src="img/left.svg" alt="arrow">
+								<span>назад</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="allservice" id="all-service">
+				<div class="container">
+					<div class="allservice-block__header">
+						<hr class="allservice-block__hr">
+						<h2 class="allservice-block__title">услуги</h2>
+					</div>
+					<div class="allservice-row">
+						<div class="allservice-page active">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+						<div class="allservice-page">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+						<div class="allservice-page">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+						<div class="allservice-page">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+					</div>
+					<div class="allservice-row">
+						<div class="allservice-page">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+						<div class="allservice-page">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+						<div class="allservice-page">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+						<div class="allservice-page">
+							<div class="allservice-page__block">
+								<div class="allservice-page__img"></div>
+								<span>Авиаперевозки</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="about" id="about">
+				<div class="container">
+					<div class="about-content">
+						<div class="about-content__header">
+							<hr class="about-content__hr">
+							<h2 class="about-content__title">о компании</h2>
+							<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+						</div>
+
+						<div class="about-advantages advantages">
+							<div class="advantages-pages">
+								<div class="advantages-pages__block">
+									<div class="advantages-pages__content">
+										<span>48</span>
+										<span>офисов</span>
+										<span>В Европе и СНГ</span>
+									</div>
+								</div>
+								<div class="advantages-pages__block">
+									<div class="advantages-pages__content">
+										<span>361</span>
+										<span>Грузовиков</span>
+										<span>В Европе и СНГ</span>
+									</div>
+								</div>
+								<div class="advantages-pages__block">
+									<div class="advantages-pages__content">
+										<img src="img/trucksmall.png" alt="trucksmall">
+									</div>
+								</div>
+							</div>
+							<div class="advantages-pages">
+								<div class="advantages-pages__block">
+									<div class="advantages-pages__content">
+										<img src="img/trucksmall.png" alt="trucksmall">
+									</div>
+								</div>
+								<div class="advantages-pages__block">
+									<div class="advantages-pages__content">
+										<span>1500</span>
+										<span>сотрудников</span>
+										<span>профессионалов</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contact" id="contact">
+				<img src="img/maps.png" alt="maps">
+			</section>
+
+			<footer>
+				<div class="container footer">
+					<div class="footer-content">
+						<div class="footer-content__block">
+							<div class="footer-content__logo">
+								<img src="img/logofooter.png" alt="logofooter">
+							</div>
+							<div class="footer-content__address">
+								<span>123456, Санкт-Петербург, Невский пр-кт 127</span>
+								<span>sales@log.ru</span>
+							</div>
+						</div>
+						<div class="footer-content__block">
+							<div class="footer-content__tel">
+								<span>+7 (812) 344-56-65</span>
+								<span>+7 (812) 355-56-65</span>	
+							</div>
+							<div class="footer-content__designer">
+								<span>Разработано - D-E-N.ru</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
 		</div>
+
+<script src="js\script.js"></script>
+
 </body>
 </html>
